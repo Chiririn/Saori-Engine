@@ -1,7 +1,7 @@
 #pragma once
 
 #define Color(r, g, b, a) r / 255, g / 255, b / 255, a / 255
-#define optFunction(type) __declspec(nothrow) __forceinline inline type __cdecl
+#define optFunction(type) inline type
 #define Font IDWriteTextFormat
 #undef CreateFont
 
